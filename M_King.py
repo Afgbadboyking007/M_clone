@@ -148,8 +148,7 @@ device = {
         'fbbd':fbbd,
         'fbdv':model,
         'fbsv':fbsv,
-        'fbca':fbca,
-        'fbdm':fbdm}
+        'fbca':fbca,       'fbdm':fbdm}
         
 logo = ("""\033[1;37m
 
@@ -194,7 +193,7 @@ def Main():
         print(" [0] Exit")
         Mumit =input("\n [?] Choose : ")
         if Mumit in ["1","01"]:
-            fuck()
+          exit()
         if Mumit in [" 0", "00"]:
             exit()
         else:
@@ -213,7 +212,6 @@ def fuck():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(4))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as yaari:
         os.system('clear')
         print(logo1)
         tl = str(len(user))
