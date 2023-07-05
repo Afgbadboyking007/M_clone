@@ -162,11 +162,11 @@ logo = ("""\033[1;37m
 |_______/ |__/  |__/|_______/       |_______/  \______/     |__/    
 
 ==================================================
-[🥀] AUTHOR       : BAD BOY
-[🥀] TOOLS          : RANDOM CLONE
-[🥀] TYPE             : FREE
+[🥀] AUTHOR     : BAD BOY
+[🥀] TOOLS      : RANDOM CLONE
+[🥀] TYPE       : FREE
 [🥀] FACEBOOK   : Mujeebullah Amini
-[🥀] WHATSAPP  : +93×××××××
+[🥀] WHATSAPP   : +93×××××××
 ==================================================""")
 
 logo1 = ("""\033[1;37m
